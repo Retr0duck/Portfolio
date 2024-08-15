@@ -1,0 +1,65 @@
+/* Estilos para el componente de contacto */
+.contact-section {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contact-item {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    color: #007bff;
+  }
+  
+  .contact-link img {
+    margin-right: 10px;
+  }
+  
+  .contact-link span {
+    font-size: 1rem;
+  }
+  
+  /* Media query para ajustar diseño en dispositivos pequeños */
+  @media (max-width: 600px) {
+    .container {
+      padding: 0 20px;
+    }
+  
+    .contact-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-item {
+      margin: 10px 0;
+    }
+  }
+  
